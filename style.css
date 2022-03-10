@@ -1,0 +1,61 @@
+body
+{
+background-color:#4baef0;
+}
+
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(119, 2, 134);
+  background-color: rgb(220, 255, 250);
+}
+
+#sketch_name
+{
+  color:rgb(255, 0, 140);
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid rgb(255, 169, 169);
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px rgb(92, 109, 141);
+    box-shadow: 1px 1px 38px #99ff9e;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(255, 170, 255);}
+  to {box-shadow: 1px 1px 38px rgb(218, 161, 188);}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
+
+#score
+{
+  font-size:35px;
+  margin-left: 20px;
+}
+
+#time
+{
+  font-size:35px;
+  float: right;
+  margin-right: 20px;
+}
